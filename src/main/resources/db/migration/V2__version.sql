@@ -1,0 +1,1 @@
+ALTER TABLE some_table ADD COLUMN version NUMERIC default 1;

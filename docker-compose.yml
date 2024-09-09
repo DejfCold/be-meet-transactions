@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: always
+    shm_size: 128mb
+    environment:
+      POSTGRES_PASSWORD: password
+    ports:
+      - 127.0.0.1:9432:5432
